@@ -1,0 +1,24 @@
+{
+  "name": "MJReachability",
+  "version": "0.1.0",
+  "summary": "A short description of MJReachability.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MJReachability",
+  "license": "MIT",
+  "authors": {
+    "Paolo Tagliani": "paolo@mobilejazz.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MJReachability.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MJReachability/Classes/**/*",
+  "resource_bundles": {
+    "MJReachability": [
+      "MJReachability/Assets/*.png"
+    ]
+  }
+}
