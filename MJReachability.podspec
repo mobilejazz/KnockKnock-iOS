@@ -20,7 +20,7 @@ Simple library written by us at Mobile Jazz to monitor reachability.
   s.homepage         = "https://github.com/mobilejazz/MJReachability"
   s.license          = 'MIT'
   s.author           = { "Paolo Tagliani" => "paolo@mobilejazz.com" }
-  s.source           = { :git => "git@github.com:mobilejazz/MJReachability.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/mobilejazz/MJReachability.git", :tag => s.version.to_s }
   
 s.ios.deployment_target = '7.0'
 s.source_files = 'MJReachability/Classes/**/*'

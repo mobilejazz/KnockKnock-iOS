@@ -15,7 +15,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     //Started monitoring reachability
-    [[MJReachability sharedReachability] awake];
+    [[MJReachability sharedReachability] awakeWithHost:<#(NSString *)#>];
     
     return YES;
 }
