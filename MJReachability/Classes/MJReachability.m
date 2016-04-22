@@ -6,19 +6,19 @@
 //  Copyright © 2016 Mobile Jazz. All rights reserved.
 //
 
-#import "MJReachabilityReachability.h"
+#import "MJReachability.h"
 #import <Reachability.h>
 
-@implementation MJReachabilityReachability {
+@implementation MJReachability {
     Reachability *_reachability;
     BOOL _serviceAvailable;
 }
 
 + (instancetype)sharedReachability {
-    static MJReachabilityReachability *sharedReachability = nil;
+    static MJReachability *sharedReachability = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedReachability = [[MJReachabilityReachability alloc] init];
+        sharedReachability = [[MJReachability alloc] init];
     });
     return sharedReachability;
 }
@@ -34,8 +34,6 @@
 
     _reachability = [Reachability reachabilityWithHostName:host];
 }
-
-#pragma mark Private Methods
 
 - (BOOL)isReachable {
     return [self isReachableVia:MJReachabilityTypeAny];

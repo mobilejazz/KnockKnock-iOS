@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "MJReachabilityProtocol.h"
 
-@interface MJReachabilityReachability : NSObject <MJReachabilityProtocol>
+@interface MJReachability : NSObject <MJReachabilityProtocol>
 
 @end
