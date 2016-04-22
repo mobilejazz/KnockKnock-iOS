@@ -14,18 +14,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+Simple library written by us at Mobile Jazz to monitor reachability.
                        DESC
 
   s.homepage         = "https://github.com/mobilejazz/MJReachability"
   s.license          = 'MIT'
   s.author           = { "Paolo Tagliani" => "paolo@mobilejazz.com" }
-  s.source           = { :git => "https://github.com/mobilejazz/MJReachability", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:mobilejazz/MJReachability.git", :tag => s.version.to_s }
   
 s.ios.deployment_target = '7.0'
+s.source_files = 'MJReachability/Classes/**/*'
+s.dependency 'Reachability', '~> 3.2'
 
-  s.source_files = 'MJReachability/Classes/**/*'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Reachability', '~> 3.2'
 end
