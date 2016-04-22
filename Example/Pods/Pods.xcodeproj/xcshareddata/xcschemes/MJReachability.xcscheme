@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2427DC32BA27E4C4BB742FDC'
+               BlueprintIdentifier = '268DC5632856D01D1AFF6EC8'
                BlueprintName = 'MJReachability'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'MJReachability.framework'>
+               BuildableName = 'libMJReachability.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -1,6 +1,0 @@
-framework module MJReachability {
-  umbrella header "MJReachability-umbrella.h"
-
-  export *
-  module * { export * }
-}

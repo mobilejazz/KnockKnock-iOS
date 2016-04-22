@@ -189,13 +189,6 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>50926FAAD322146783344E41</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C33E64BCA410B4FCF4E039B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>6003F581195388D10070C39A</key>
 		<dict>
 			<key>children</key>
@@ -300,7 +293,7 @@ fi
 				<string>6003F590195388D20070C39A</string>
 				<string>6003F592195388D20070C39A</string>
 				<string>6003F58E195388D20070C39A</string>
-				<string>50926FAAD322146783344E41</string>
+				<string>D40DCC6A7139B9AC3C375778</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -385,8 +378,8 @@ fi
 				<string>6003F58F195388D20070C39A</string>
 				<string>6003F591195388D20070C39A</string>
 				<string>6003F5AF195388D20070C39A</string>
-				<string>6C33E64BCA410B4FCF4E039B</string>
-				<string>805E1CCD1D678DF939C4BC7E</string>
+				<string>E1FA5F5F10F63939C747CEA7</string>
+				<string>F17982D0C79975A9A8599098</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -663,7 +656,7 @@ fi
 				<string>6003F5B0195388D20070C39A</string>
 				<string>6003F5B2195388D20070C39A</string>
 				<string>6003F5B1195388D20070C39A</string>
-				<string>9520775B82BFB0890711BC78</string>
+				<string>B7E43FE80266DAAC42FAEEB3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -1238,32 +1231,6 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>6C33E64BCA410B4FCF4E039B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_MJReachability_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>805E1CCD1D678DF939C4BC7E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_MJReachability_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>873B8AEA1B1F5CCA007FD442</key>
 		<dict>
 			<key>fileEncoding</key>
@@ -1284,10 +1251,10 @@ fi
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9520775B82BFB0890711BC78</key>
+		<key>B7E43FE80266DAAC42FAEEB3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>805E1CCD1D678DF939C4BC7E</string>
+			<string>F17982D0C79975A9A8599098</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1307,6 +1274,13 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>D40DCC6A7139B9AC3C375778</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E1FA5F5F10F63939C747CEA7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>D66756544C64DA5E2EE1645F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1319,6 +1293,19 @@ fi
 			<string>../MJReachability.podspec</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E1FA5F5F10F63939C747CEA7</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-MJReachability_Example.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>E575501B2922BE2947D8A028</key>
 		<dict>
@@ -1343,6 +1330,19 @@ fi
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
+		</dict>
+		<key>F17982D0C79975A9A8599098</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-MJReachability_Tests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
