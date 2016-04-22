@@ -15,10 +15,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MJReachability/Classes/**/*",
-  "resource_bundles": {
-    "MJReachability": [
-      "MJReachability/Assets/*.png"
-    ]
-  }
+  "source_files": "MJReachability/Classes/**/*"
 }

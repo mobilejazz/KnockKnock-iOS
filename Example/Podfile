@@ -2,10 +2,11 @@ use_frameworks!
 
 target 'MJReachability_Example', :exclusive => true do
   pod 'MJReachability', :path => '../'
+  pod 'Reachability', '~> 3.2'
 end
 
 target 'MJReachability_Tests', :exclusive => true do
   pod 'MJReachability', :path => '../'
-
+  pod 'Reachability', '~> 3.2'
   
 end

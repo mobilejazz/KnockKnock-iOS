@@ -1,14 +1,17 @@
 PODS:
   - MJReachability (0.1.0)
+  - Reachability (3.2)
 
 DEPENDENCIES:
   - MJReachability (from `../`)
+  - Reachability (~> 3.2)
 
 EXTERNAL SOURCES:
   MJReachability:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MJReachability: dea3141862da2f309288e4a4062188af1ddb5d3d
+  MJReachability: cf8fb1b2e2c082c5fe74684bde6f14a79e50944a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
 COCOAPODS: 0.39.0
