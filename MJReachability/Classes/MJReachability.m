@@ -7,7 +7,7 @@
 //
 
 #import "MJReachability.h"
-#import <Reachability.h>
+#import "Reachability.h"
 
 @implementation MJReachability {
     Reachability *_reachability;
