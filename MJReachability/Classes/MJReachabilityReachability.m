@@ -1,9 +1,9 @@
 //
 //  MJReachabilityReachability.m
-//  SimonScena
+//  Mobile Jazz
 //
 //  Created by Paolo Tagliani on 26/01/16.
-//  Copyright © 2016 Simon. All rights reserved.
+//  Copyright © 2016 Mobile Jazz. All rights reserved.
 //
 
 #import "MJReachabilityReachability.h"
