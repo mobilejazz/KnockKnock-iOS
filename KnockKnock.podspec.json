@@ -24,7 +24,7 @@
   ],
   "frameworks": "Foundation",
   "dependencies": {
-	  "Reachability": ["~>3.2"],
+	  "Reachability": ["~>3.2"]
   },
   "requires_arc": true
 }
