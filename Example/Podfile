@@ -1,10 +1,8 @@
 
-target 'MJReachability_Example', :exclusive => true do
-  pod 'MJReachability', :path => '../'
+target 'Knock' do
   pod 'Reachability', '~> 3.2'
 end
 
-target 'MJReachability_Tests', :exclusive => true do
-  pod 'MJReachability', :path => '../'
+target 'KnockTests' do
   pod 'Reachability', '~> 3.2'
 end
