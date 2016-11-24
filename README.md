@@ -1,9 +1,9 @@
-# Knock
+# KnockKnock
 
-[![CI Status](http://img.shields.io/travis/Paolo Tagliani/Knock.svg?style=flat)](https://travis-ci.org/Paolo Tagliani/Knock)
-[![Version](https://img.shields.io/cocoapods/v/Knock.svg?style=flat)](http://cocoapods.org/pods/Knock)
-[![License](https://img.shields.io/cocoapods/l/Knock.svg?style=flat)](http://cocoapods.org/pods/Knock)
-[![Platform](https://img.shields.io/cocoapods/p/Knock.svg?style=flat)](http://cocoapods.org/pods/Knock)
+[![CI Status](http://img.shields.io/travis/Paolo Tagliani/KnockKnock.svg?style=flat)](https://travis-ci.org/Paolo Tagliani/Knock)
+[![Version](https://img.shields.io/cocoapods/v/Knock.svg?style=flat)](http://cocoapods.org/pods/KnockKnock)
+[![License](https://img.shields.io/cocoapods/l/Knock.svg?style=flat)](http://cocoapods.org/pods/KnockKnock)
+[![Platform](https://img.shields.io/cocoapods/p/Knock.svg?style=flat)](http://cocoapods.org/pods/KnockKnock)
 
 ## Usage
 
@@ -13,7 +13,7 @@ To start monitoring reachability, just call the method `awake` on the shared rea
 ```objc
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *) launchOptions {
     //Started monitoring reachability
-    [[Knock sharedReachability] awake];
+    [[Knock knock] awake];
    
    return YES;
 }    
@@ -22,19 +22,19 @@ To start monitoring reachability, just call the method `awake` on the shared rea
 This method automatically start looking for reachability on *Google.com*. You could start monitoring reachability on a custom URL by calling the following method:
 
 ```
-[[Knock sharedReachability] awakeWithHost:YOUR_HOST];
+[[Knock knock] awakeWithHost:YOUR_HOST];
 ```
 
 ### Check reachability
 
 You can check reachability at any time by retrieving the shared reachability object and calling the 
-method `isReachableVia:(KnockType)type`, passing the desired reachability.
+method `whosThere:(KKActor)actor`, passing the desired reachability.
 
 ```objc
-typedef NS_OPTIONS(NSUInteger, KnockType) {
-    KnockTypeAny,
-    KnockTypeWifi,
-    KnockTypeCellular
+typedef NS_OPTIONS(NSUInteger, KKActor) {
+    KKSomeone,
+    KKWifi,
+    KKCellular
 };
 ```
 
@@ -50,13 +50,9 @@ Knock is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Knock"
+pod "KnockKnock"
 ```
-
-## Author
-
-Paolo Tagliani, paolo@mobilejazz.com
 
 ## License
 
-Knock is available under the MIT license. See the LICENSE file for more info.
+Knock is available under the Apache license. See the LICENSE file for more info.

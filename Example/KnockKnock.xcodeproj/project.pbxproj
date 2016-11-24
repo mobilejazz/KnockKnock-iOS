@@ -23,7 +23,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D2FDEEE11DE7497B00C096BF /* KnockKnock.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D2FDEEE01DE7497B00C096BF /* KnockKnock.podspec */; };
+		D23F536F1DE74F8D0096AB01 /* KnockKnock.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = D23F536E1DE74F8D0096AB01 /* KnockKnock.podspec.json */; };
 		D2FDEEE61DE7499600C096BF /* Knock.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FDEEE41DE7499600C096BF /* Knock.m */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +66,7 @@
 		A7B7FDF958915D0BC5D084E0 /* Pods-KnockKnockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnockKnockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnockKnockTests/Pods-KnockKnockTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCAE5A013DF624FB65F4760C /* Pods-KnockKnock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnockKnock.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnockKnock/Pods-KnockKnock.release.xcconfig"; sourceTree = "<group>"; };
 		CA9848B9E41F6E3AA67D615A /* libPods-KnockKnock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KnockKnock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2FDEEE01DE7497B00C096BF /* KnockKnock.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KnockKnock.podspec; path = ../KnockKnock.podspec; sourceTree = "<group>"; };
+		D23F536E1DE74F8D0096AB01 /* KnockKnock.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = KnockKnock.podspec.json; path = ../KnockKnock.podspec.json; sourceTree = "<group>"; };
 		D2FDEEE31DE7499600C096BF /* Knock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Knock.h; sourceTree = "<group>"; };
 		D2FDEEE41DE7499600C096BF /* Knock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Knock.m; sourceTree = "<group>"; };
 		D2FDEEE51DE7499600C096BF /* KnockProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnockProtocol.h; sourceTree = "<group>"; };
@@ -192,7 +192,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				D2FDEEE01DE7497B00C096BF /* KnockKnock.podspec */,
+				D23F536E1DE74F8D0096AB01 /* KnockKnock.podspec.json */,
 				3BBB42153F4E5253089F64BA /* README.md */,
 				4B81CA3C424583BACCF74C26 /* LICENSE */,
 			);
@@ -295,8 +295,8 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				D2FDEEE11DE7497B00C096BF /* KnockKnock.podspec in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				D23F536F1DE74F8D0096AB01 /* KnockKnock.podspec.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
