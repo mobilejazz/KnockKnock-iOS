@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/Knock.svg?style=flat)](http://cocoapods.org/pods/KnockKnock)
 [![Platform](https://img.shields.io/cocoapods/p/Knock.svg?style=flat)](http://cocoapods.org/pods/KnockKnock)
 
+![KnockKnock](https://raw.githubusercontent.com/mobilejazz/metadata/master/images/banners/mobile-jazz-knockknock-ios.jpg)
+
 ## Usage
 
 ### Start monitoring
