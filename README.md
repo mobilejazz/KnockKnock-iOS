@@ -1,11 +1,11 @@
+![KnockKnock](https://raw.githubusercontent.com/mobilejazz/metadata/master/images/banners/mobile-jazz-knockknock-ios.jpg)
+
 # KnockKnock
 
 [![CI Status](http://img.shields.io/travis/Paolo Tagliani/KnockKnock.svg?style=flat)](https://travis-ci.org/Paolo Tagliani/Knock)
 [![Version](https://img.shields.io/cocoapods/v/Knock.svg?style=flat)](http://cocoapods.org/pods/KnockKnock)
 [![License](https://img.shields.io/cocoapods/l/Knock.svg?style=flat)](http://cocoapods.org/pods/KnockKnock)
 [![Platform](https://img.shields.io/cocoapods/p/Knock.svg?style=flat)](http://cocoapods.org/pods/KnockKnock)
-
-![KnockKnock](https://raw.githubusercontent.com/mobilejazz/metadata/master/images/banners/mobile-jazz-knockknock-ios.jpg)
 
 ## Usage
 
